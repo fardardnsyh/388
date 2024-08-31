@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-studio",
+  "private": true,
+  "version": "2.1.0",
+  "description": "Sanity Studio for Portfolio",
+  "main": "package.json",
+  "author": {
+    "name": "Guido Lange",
+    "url": "https://github.com/gylxan"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/code-input": "^4.0.0",
+    "@sanity/document-internationalization": "^3.0.0",
+    "@sanity/language-filter": "^4.0.0",
+    "@sanity/vision": "3.53.0",
+    "eslint": "^8.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.0",
+    "react-is": "^18.2.0",
+    "sanity": "3.53.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "eslint-config-sanity": "^7.0.0",
+    "eslint-plugin-react": "^7.31.11"
+  }
+}

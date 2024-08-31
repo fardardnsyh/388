@@ -1,0 +1,24 @@
+.link {
+  text-decoration-skip-ink: auto;
+  cursor: pointer;
+}
+
+.active:after {
+  @apply bg-primary block w-full h-0.5 relative opacity-50 content-[''];
+}
+
+.active:hover:after {
+  @apply bg-secondary;
+}
+
+.underlined {
+  @apply text-secondary;
+}
+
+.underlined:after {
+  @apply bg-secondary block w-0 h-0.5 relative opacity-50 transition-all duration-300 content-[''];
+}
+
+.underlined:hover:after {
+  @apply w-full;
+}
